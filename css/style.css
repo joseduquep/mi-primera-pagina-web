@@ -1,57 +1,23 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: #f0f7ff; /* Un azul muy claro para el fondo */
 }
 
-header, footer {
-    background-color: #003366; /* Un azul oscuro para contraste */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+h1, h2, h3, h4, h5, h6 {
+    color: #003366; /* Un azul oscuro para los títulos */
 }
 
-header h1, section h2 {
-    color: #003366; /* Manteniendo el azul oscuro para coherencia */
+a, a:hover {
+    color: #007bff; /* Mantener el azul de Bootstrap para enlaces */
 }
 
-section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #e6f0ff; /* Un azul claro para el fondo de las secciones */
-    border-radius: 8px; /* Añadiendo bordes redondeados para un look moderno */
+.navbar {
+    margin-bottom: 30px;
 }
 
-ul {
-    list-style: none;
+.jumbotron {
+    background-color: #003366; /* Un azul oscuro para el jumbotron */
 }
 
-ul li {
-    margin: 10px 0;
-}
-
-a {
-    color: #007bff; /* Un azul brillante para los enlaces, fácil de leer */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #0056b3; /* Un tono de azul un poco más oscuro para el hover */
-}
-
-/* Añadiendo algunos estilos para botones o acciones específicas, si los necesitas */
-button {
-    background-color: #007bff; /* Azul brillante para botones */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
+footer {
+    background-color: #002244; /* Un azul más oscuro para el pie de página */
 }
