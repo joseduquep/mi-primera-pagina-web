@@ -3,21 +3,38 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #003366; /* Un azul oscuro para los títulos */
+    color: #003366; /* Azul oscuro para los títulos, para un contraste fuerte */
 }
 
 a, a:hover {
-    color: #007bff; /* Mantener el azul de Bootstrap para enlaces */
+    color: #007bff; /* Azul de Bootstrap para enlaces, con un hover claro */
 }
 
 .navbar {
-    margin-bottom: 30px;
+    background-color: #002244; /* Azul más oscuro para la barra de navegación */
+}
+
+.foto-perfil {
+    width: 60px; /* Tamaño reducido para la foto de perfil */
+    height: 60px; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Asegura que la foto cubra el espacio sin distorsionarse */
 }
 
 .jumbotron {
-    background-color: #003366; /* Un azul oscuro para el jumbotron */
+    background-color: #003366; /* Un azul oscuro coherente con el esquema de color */
+    margin-bottom: 0; /* Elimina el margen inferior para unir visualmente con el siguiente contenido */
+}
+
+.container {
+    padding-top: 2rem; /* Espacio superior para respirar */
+}
+
+section {
+    padding-bottom: 2rem; /* Espacio inferior para separar las secciones */
 }
 
 footer {
-    background-color: #002244; /* Un azul más oscuro para el pie de página */
+    background-color: #002244; /* Un azul más oscuro para el pie de página, coherente con la barra de navegación */
+    color: #ffffff; /* Texto blanco para contraste */
+    padding: 1rem 0; /* Espaciado interior para el contenido del pie de página */
 }
