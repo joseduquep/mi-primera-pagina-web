@@ -3,68 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portafolio de José Duque</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="imagenes/fotomia.jpg" alt="Foto de perfil" class="foto-perfil rounded-circle mr-3">Mi Portafolio
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#sobre-mi">Sobre Mí <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#redes">Redes Sociales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <header class="jumbotron jumbotron-fluid bg-info text-white text-center mb-0">
-            <div class="container">
-                <h1 class="display-4">Bienvenido a Mi Portafolio</h1>
-                <p class="lead">Descubre mi mundo de desarrollo web.</p>
-            </div>
-        </header>
-
-        <div class="container mt-5">
-            <section id="sobre-mi" class="my-5">
-                <h2 class="mb-3">Sobre Mí</h2>
-                <p>Soy Jose Alejandro Duque, un desarrollador web apasionado por crear experiencias digitales memorables. Especializado en Backend.</p>
-            </section>
-
-            <section id="redes" class="my-5">
-                <h2 class="mb-3">Redes Sociales</h2>
-                <ul class="list-unstyled">
-                    <li>Instagram: <a href="https://www.instagram.com/joseduquep/">@joseduquep</a></li>
-                    <li>GitHub: <a href="https://github.com/joseduquep">@joseduquep</a></li>
-                </ul>
-            </section>
-
-            <section id="contacto" class="my-5">
-                <h2 class="mb-3">Contacto</h2>
-                <p>¿Interesado en trabajar juntos? ¡Me encantaría escuchar de ti! Envíame un email a <a href="mailto:duquepiedrahitaalejandro@gmail.com">duquepiedrahitaalejandro@gmail.com</a>.</p>
-            </section>
+    <header>
+        <div class="perfil-container">
+        <img src="imagenes/fotomia.jpg" alt="Foto de perfil" class="foto-perfil"> <!-- Asegúrate de usar la ruta correcta -->
         </div>
-
-        <footer class="bg-dark text-white py-4 text-center">
-            <p>&copy; 2024 - Jose Alejandro Duque Piedrahita. Todos los derechos reservados.</p>
-        </footer>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <h1>José Alejandro Duque - Ingeniero de Sistemas</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Mi fascinación por el software surge de su capacidad para ofrecer soluciones innovadoras a desafíos contemporáneos y futuros. La decisión de estudiar Ingeniería de Sistemas fue impulsada por mi observación de cómo el software puede simplificar procesos complejos, transformando la eficiencia y efectividad de diversas tareas.</p>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <p>Entre mis proyectos académicos, destacan el desarrollo de un software con compañeros de la Universidad EAFIT. Este proyecto facilita el proceso de elección de carrera universitaria, ofreciendo datos sobre el éxito laboral asociado a cada programa de pregrado.</p>
+        <p>Adicionalmente, he contribuido a mejorar los procesos de examinación en fonoaudiología para licencias de conducción, identificando y mitigando ineficiencias a través de soluciones tecnológicas innovadoras.</p>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades y Formación</h2>
+        <p>Me he capacitado en tecnologías claves para el desarrollo moderno, incluyendo Python, Git, GitHub y PostgreSQL. Mi formación me ha permitido trabajar efectivamente en proyectos colaborativos usando Git y GitHub.</p>
+        <p>Mis habilidades de comunicación han sido fortalecidas significativamente gracias a mi experiencia como tutor de Pensamiento Computacional, donde interactué con cientos de estudiantes, reforzando tanto mi capacidad para enseñar como para trabajar en equipo.</p>
+        <p>Profesionalmente, estoy particularmente interesado en el área de Backend, buscando profundizar y expandir mis conocimientos y experiencia en este campo.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para colaboraciones profesionales o más información, no dudes en contactarme. Estoy disponible a través de mi <a href="mailto:duquepiedrahitaalejandro@gmail.com">correo electrónico</a> o puedes conectarte conmigo en <a href="https://www.linkedin.com/in/josé-alejandro-duque-a82b06270/">LinkedIn</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 José Alejandro Duque Piedrahita - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
